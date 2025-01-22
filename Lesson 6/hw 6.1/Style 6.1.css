@@ -1,0 +1,16 @@
+div .block-1 li:nth-child(odd){
+    color: pink;
+}
+div .block-2 li:nth-child(even){
+    font-size: 22px;
+}
+div .block-3 li:nth-child(2n+5)::after{
+    content: "!";
+}
+div .block-4 :last-child{
+    color: purple;
+}
+div .block-5 li:first-letter{
+    font-size: 30px;
+    color: red;
+}

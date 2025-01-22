@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .square{
+            width: 250px;
+            height: 250px;
+            background-color: #e496da;
+            border-radius: 0%;
+            border: 10px solid #300133;
+            animation: square 5s linear alternate infinite
+        }
+        @keyframes square {
+            from{
+                transform: translate(-100px,-100px)
+            }
+            to{
+                transform: translate(100px,100px) scale(-0.5) ;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="square"></div>
+</div>
+</body>
+</html>

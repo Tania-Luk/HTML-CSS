@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .circle{
+            width: 250px;
+            height: 250px;
+            background-color: #74c5c8;
+            border-radius: 50%;
+            border: 10px outset black;
+            animation: circle 4s ease-out alternate infinite
+        }
+        @keyframes circle {
+            from{
+                transform: rotate(360deg)
+            }
+            to{
+                transform: scale(1.5) rotate(-360deg)
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="circle"></div>
+</div>
+</body>
+</html>

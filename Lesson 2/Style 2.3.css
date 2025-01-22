@@ -1,0 +1,32 @@
+body{
+    height: 800px;
+}
+.wrapper{
+    display: flex;
+    background-color: #329176;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.month{
+    background-color: #84d5be ;
+    width: 170px;
+    height: 165px;
+    border-radius: 5%;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.month:hover {
+    width: 180px;
+    height: 180px;
+    transition: 1s;
+    transform: scale(1);
+
+}
