@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: "Plus Jakarta Sans", serif;
+}
+nav{
+    width: 1250px;
+    height: 86px;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-Dasteen{
+    width: 194px;
+    height: 45px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.nav-Dasteen p:nth-child(1){
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.nav-Dasteen a:nth-child(2){
+    width: 48px;
+    height: 27px;
+    color:  #6246EA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 589px;
+}
+.navbars{
+    width: 423px;
+    height: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+.Icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-button{
+    display: flex;
+    padding: 10px 17px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background:  #6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+
+
