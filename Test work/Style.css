@@ -2,10 +2,17 @@
 body{
     font-family: "Plus Jakarta Sans", serif;
 }
-nav{
-    width: 1250px;
-    height: 86px;
+header{
+    width: 1440px;
+    height: 900px;
     background: #EFF0F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 1440px;
+    height: 86px;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     display: flex;
     justify-content: space-between;
@@ -19,6 +26,7 @@ nav{
     display: inline-flex;
     justify-content: center;
     align-items: flex-end;
+    margin-left: 95px;
 }
 .nav-Dasteen p:nth-child(1){
     color: #001858;
@@ -73,10 +81,96 @@ nav{
     line-height: normal;
     text-transform: capitalize;
     margin-left: 50px;
+    margin-right: 95px;
     text-align: center;
 }
-/*.nav-bars li{*/
-/*    width: 95px;}*/
+.introduse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 116px;
+    /*margin-left: 95px;*/
+}
+.registration{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.registration h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+span{
+    display: inline-flex;
+}
+span .none{
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+    margin: 0 auto;
+}
+span p{
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 12px;
+}
+.form-registration{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+input[type="email"]{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:  #FFFFFE;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-style: none;
+}
+input[type="submit"]{
+    width: 145px;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:  #6246EA;
+    color:  #FFFFFE;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-style: none;
+}
+.img-introduse{
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+    /*margin: 250px 95px 263px 0;*/
+}
+
 
 
 
