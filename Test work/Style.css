@@ -8,8 +8,10 @@ nav{
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 .nav-Dasteen{
     width: 194px;
@@ -36,16 +38,20 @@ nav{
 }
 .nav{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin-left: 589px;
 }
-.navbars{
-    width: 423px;
+.nav-bars{
     height: 25px;
     display: flex;
     align-items: flex-start;
     gap: 50px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .Icon{
     display: flex;
@@ -53,20 +59,25 @@ nav{
     align-items: center;
     gap: 10px;
 }
-.nav-button{
+.nav-button {
     display: flex;
-    padding: 10px 17px;
     align-items: flex-start;
+    padding: 10px 17px;
     gap: 10px;
     border-radius: 4px;
-    background:  #6246EA;
+    background: #6246EA;
     color: #FFFFFE;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    margin-left: 50px;
+    text-align: center;
 }
+/*.nav-bars li{*/
+/*    width: 95px;}*/
+
 
 
 
