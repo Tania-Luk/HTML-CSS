@@ -224,7 +224,7 @@ input[type="submit"]{
     align-items: center;
     gap: 37px;
 }
-.card{
+.cards{
     width: 220px;
     height: 280px;
     border-radius: 8px;
@@ -233,7 +233,34 @@ input[type="submit"]{
     justify-content: center;
     align-items: center;
 }
-
+.cards:hover{
+    background: #6346EA;
+}
+svg{
+    background:  #FFFFFE
+}
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 30px;
+}
+.css{
+    margin: 65px 130px 95px 30px;
+}
+.js{
+    margin: 65px 72px 95px 30px;
+}
+.Tailwind{
+    margin: 65px 94px 95px 30px;
+}
+.Vue-JS{
+    margin: 65px 115px 95px 30px;
+}
+.React-JS{
+    margin: 65px 92px 95px 30px;
+}
 
 
 
