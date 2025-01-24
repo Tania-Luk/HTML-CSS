@@ -212,10 +212,10 @@ input[type="submit"]{
     line-height: normal;
     text-transform: capitalize;
 }
-.category img{
+.category svg{
     width: 6px;
     height: 14px;
-    padding-top: 4px;
+    margin-left: 12px;
 }
 .category-cards{
     width: 100%;
@@ -236,15 +236,21 @@ input[type="submit"]{
 .cards:hover{
     background: #6346EA;
 }
-svg{
-    background:  #FFFFFE
-}
 .card{
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content:flex-start;
     gap: 30px;
+}
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background:  #FFFFFE;
 }
 .css{
     margin: 65px 130px 95px 30px;
