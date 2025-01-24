@@ -19,6 +19,7 @@ nav{
     align-items: center;
     position: fixed;
     top: 0;
+    background: #EFF0F3;
 }
 .nav-Dasteen{
     width: 194px;
@@ -89,7 +90,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 116px;
-    /*margin-left: 95px;*/
 }
 .registration{
     display: inline-flex;
@@ -168,8 +168,75 @@ input[type="submit"]{
     padding: 12.874px 18.074px 10.757px 17.649px;
     justify-content: center;
     align-items: center;
-    /*margin: 250px 95px 263px 0;*/
 }
+.categories{
+    height: 500px;
+    width: 1440px;
+    background: #EFF0F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-categories{
+    display: flex;
+    width: 1252px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 67px 94px;
+}
+.category{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    padding: 2px 0 3px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 810px;
+}
+.category p{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.category a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.category img{
+    width: 6px;
+    height: 14px;
+    padding-top: 4px;
+}
+.category-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background:  #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 
 
