@@ -393,7 +393,7 @@ input[type="submit"]{
 }
 .Subscribe{
     width: 1440px;
-    display: inline-flex;
+    display: flex;
     padding: 58px 372px;
     flex-direction: column;
     align-items: flex-start;
@@ -431,20 +431,22 @@ input[type="submit"]{
     line-height: normal;
 }
 /*--------------------------footer-----------------------------------*/
-.about-site{
+footer{
     width: 1440px;
     height: 435px;
     flex-shrink: 0;
     background: #E4E5E9;
 }
 .frame{
-    /*width: 1249px;*/
+    width: 1250px;
+    height: 245px;
     display: inline-flex;
     align-items: flex-start;
     gap: 160px;
-    margin: 70px 95px 0 95px;
+    margin: 70px 95px 50px 95px;
 }
 .About{
+    width: 284px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -481,15 +483,14 @@ input[type="submit"]{
     line-height: normal;
 }
 .frames{
-    width: 284px;
     display: flex;
     align-items: flex-start;
-    margin-right: 30px;
     gap: 30px;
 }
 .Footer-Links{
     width: 805px;
     display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 95px;
 }
@@ -498,6 +499,7 @@ input[type="submit"]{
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
+    white-space: nowrap;
 }
 .Link ul{
     display: flex;
@@ -513,7 +515,7 @@ input[type="submit"]{
     line-height: normal;
     text-transform: uppercase;
 }
-.Footer-Links li{
+.Footer-Links li {
     color: #2B2C34;
     font-size: 18px;
     font-style: normal;
@@ -521,14 +523,18 @@ input[type="submit"]{
     line-height: normal;
     text-transform: capitalize;
 }
-
-
-
-
-
-
-
-hr{
-    margin: 0 95px;
+footer hr{
+    width: 1250px;
+    height: 1px;
+    margin : 0 95px 26px 95px;
+    background: #C0C0C0;
+}
+footer>p{
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 95px;
 }
 
