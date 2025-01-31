@@ -2,6 +2,7 @@
 body{
     font-family: "Plus Jakarta Sans", serif;
 }
+/*----------------header-------------------------------*/
 header{
     width: 1440px;
     height: 900px;
@@ -165,10 +166,11 @@ input[type="submit"]{
 .img-introduse{
     display: flex;
     width: 470px;
-    padding: 12.874px 18.074px 10.757px 17.649px;
+    padding: 13px 18px 11px 18px;
     justify-content: center;
     align-items: center;
 }
+/*-------------------section categories --------------------*/
 .categories{
     height: 500px;
     width: 1440px;
@@ -235,6 +237,9 @@ input[type="submit"]{
 .cards:hover{
     background: #6346EA;
 }
+.cards:hover p{
+    color: #FFFFFE;
+}
 .card{
     display: inline-flex;
     flex-direction: column;
@@ -248,7 +253,7 @@ input[type="submit"]{
     align-items: center;
     width: 60px;
     height: 60px;
-    border-radius: 7.458px;
+    border-radius: 8px;
     background:  #FFFFFE;
 }
 .css{
@@ -266,6 +271,7 @@ input[type="submit"]{
 .React-JS{
     margin: 65px 92px 95px 30px;
 }
+/*-------------------section article posts---------------------------*/
 .Article-Posts{
     width: 1252px;
     display: inline-flex;
@@ -328,7 +334,7 @@ input[type="submit"]{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 4.2px;
+    gap: 4px;
 }
 .name{
     width: 73px;
@@ -391,6 +397,7 @@ input[type="submit"]{
     line-height: normal;
     margin-bottom: 80px;
 }
+/*-------------------section subscribe--------------------*/
 .Subscribe{
     width: 1440px;
     display: flex;
